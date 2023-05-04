@@ -1,0 +1,107 @@
+/* základní styly */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(14,31,127);
+	padding: 10px;
+}
+.logo img {
+	height: 50px;
+}
+nav ul {
+	display: flex;
+}
+nav li {
+	margin-right: 20px;
+}
+nav a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:hover {
+	color: rgb(14,31,127);
+}
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.hero {
+	background-image: url('plaz.png');
+	background-size: cover;
+	background-position: center;
+	color: black;
+	padding: 100px;
+	text-align: center;
+}
+.hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+.hero .subheading {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+.cta {
+	display: inline-block;
+	background-color: rgb(14,31,127);
+	color: #FFF;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.cta:hover {
+	background-color: rgb(44, 62, 165);
+}
+.benefits {
+	margin-top: 50px;
+}
+.benefits h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.benefits ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+.benefits li {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.how-to-qualify {
+	margin-top: 50px;
+}
+.how-to-qualify h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.how-to-qualify ol {
+	list-style-type: decimal;
+	margin-left: 20px;
+}
+.how-to-qualify li {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+footer {
+	background-color: #333;
+	color: #FFF;
+	text-align: center;
+	padding: 20px;
+}
+footer p {
+	font-size: 14px;
+}
